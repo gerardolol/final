@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>funciones 3</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+	body{
+	background-image: url(fondo.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	}
+
+	#container {
+		width: 80%;
+		margim: 0 auto;
+		pádding: 20px;
+		background-color: #ffffff05;
+		backdrop-filter: blur(50px);
+		border-radius: 10px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		text-align: ce;
+
+	}
+	img{
+		max-width: 100%;
+		height: 0 auto;
+		margin-bottom: 60px;
+		border-radius: 60px;
+	}
+
+
+</style>
+</head>
+<body>
+	<div id="container">
+	<font face="Arial" color="black">
+	<center><h1>funciones de multimedia en html</h1></center> 
+
+	<center><h1>video funcion</h1></center> 
+
+	<h1>12. video</h1>
+	<h2>La etiqueta <"video> permite reproducir archivos de video directamente en el navegador, sin necesidad de plugins externos. Los usuarios pueden reproducir, pausar, detener y controlar el volumen del video, lo que proporciona una experiencia interactiva.</h2>
+	<pre>
+		
+		<code>
+			<"head>
+    <"meta charset="UTF-8">
+    <"meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <"title>Ejemplo de Video<"/title>
+<"/head>
+<"body>
+    <"h1>prueba de etiqueta de video<"/h1>
+    <"p>A ejemplo:<"/p>
+    
+    <"video width="640" height="360" controls>
+        <"source src="video.mp4" type="video/mp4">
+        <"source src="video.ogg" type="video/ogg">
+        Tu navegador no soporta la etiqueta de video.
+    <"/video>
+<"/body>
+		</code>
+		
+	</pre>
+
+	<h2><"video width="640" height="360" controls>: Crea un elemento de video con un ancho de 640 píxeles y una altura de 360 píxeles. El atributo controls agrega los controles de usuario para reproducir, pausar y ajustar el volumen del video.</h2>
+
+	<center><h1>sonido funcion</h1></center> 
+
+	<h1>13.sonido</h1>
+	<h2>La etiqueta <"audio> en HTML se utiliza para incrustar archivos de sonido en una página web. Al igual que la etiqueta <"video>, permite a los desarrolladores ofrecer contenido multimedia de forma efectiva, mejorando la experiencia del usuario.</h2> <hr>
+	<pre>
+		
+		<code>
+			<"body>
+    <"h1>Bienvenido a mi Página Web<"/h1>
+    <"p>A continuación se muestra un audio de ejemplo:<"/p>
+    
+    <"audio controls>
+        <"source src="audio.mp3" type="audio/mpeg">
+        <"source src="audio.ogg" type="audio/ogg">
+        Tu navegador no soporta la etiqueta de audio.
+    <"/audio>
+<"/body>
+		</code>
+		
+	</pre>
+
+	<h2>La etiqueta <"audio> permite reproducir archivos de audio directamente en el navegador, sin necesidad de plugins externos. Los usuarios pueden reproducir, pausar, detener y controlar el volumen del audio, lo que proporciona una experiencia interactiva.</h2>
+
+	<center><h1>object funcion</h1></center> 
+
+	<h1>14.object</h1>
+	<h2>La etiqueta <"object> puede usarse para incrustar diferentes tipos de contenido, incluyendo imágenes, videos, y aplicaciones. Ofrece más control sobre cómo se presenta el contenido y permite especificar un fallback en caso de que el contenido no se pueda mostrar. Por ejemplo:</h2>
+	<pre>
+		
+		<code>
+			<"object data="video.mp4" width="640" height="360">
+ 			 <"p>Tu navegador no soporta este formato de video.<"/p>
+			<"/object>
+		</code>
+		
+	</pre>
+	
+	<h2>Estas funciones permiten a los desarrolladores web enriquecer la experiencia del usuario al integrar una variedad de elementos multimedia en sus páginas.</h2>
+
+	<center><h1>tablas funcion</h1></center> 
+
+	<h1>15.tablas</h1>
+	<h2>Las tablas en HTML se crean utilizando la etiqueta <"table>, que permite organizar datos en filas y columnas. Las tablas son útiles para presentar información estructurada de manera clara y accesible. A continuación, se describen las etiquetas principales que se utilizan para crear tablas:</h2>
+	<pre>
+		
+		<code>
+			<"table>
+  <"tr>
+    <"th>Encabezado 1<"/th>
+    <"th>Encabezado 2<"/th>
+    <"th>Encabezado 3<"/th>
+  <"/tr>
+  <"tr>
+    <"td>Dato 1<"/td>
+    <"td>Dato 2<"/td>
+    <"td>Dato 3<"/td>
+  <"/tr>
+  <"tr>
+    <"td>Dato 4<"/td>
+    <"td>Dato 5<"/td>
+    <"td>Dato 6<"/td>
+  <"/tr>
+<"/table>
+		</code>
+		<h2><2table>: Define el inicio de la tabla.</h2>
+		<h2><"tr>: Define una fila de la tabla.</h2>
+		<h2><2th>: Define una celda de encabezado, que generalmente está en negrita y centrada.</h2>
+		<h2><"td>: Define una celda de datos.</h2>
+	</pre>
+
+	<center><h1>marquee funcion</h1></center> 
+
+	<h1>16.marquee</h1>
+	<h2>La etiqueta <"marquee> en HTML se utiliza para crear un efecto de desplazamiento horizontal o vertical de texto o imágenes dentro de una página web. Aunque esta etiqueta está obsoleta y no se recomienda su uso, aún se puede utilizar para lograr ciertos efectos visuales.</h2>
+	
+	<pre>
+		
+		<code>
+			
+			<"marquee behavior="scroll" direction="left">
+  			Texto que se desplazará
+			<"/marquee>
+
+		</code>
+
+	</pre>
+
+	<h2>behavior: Especifica el tipo de desplazamiento del texto. Los valores posibles son:</h2>
+	<h2>scroll: El texto se desplazará continuamente (predeterminado).</h2>
+	<h2>slide: El texto se desplazará una vez y luego se detendrá.</h2>
+	<h2>alternate: El texto se desplazará hacia adelante y hacia atrás.</h2>
+
+	<center><h1>style funcion</h1></center> 
+
+	<h1>17. style</h1>
+	<h2>La función style en HTML se utiliza para aplicar estilos CSS (Cascading Style Sheets) directamente a un elemento HTML. Esto permite personalizar la apariencia y el diseño de los elementos de la página web.</h2>
+	<pre>
+		
+		<code>
+			<"head>
+ 	 <"style>
+   	 p {
+    	  color: blue;
+    	  font-size: 14px;
+   	 }
+ 	 <"/style>
+	<"/head>
+		</code>
+	</pre>
+
+	<center><h1>button funcion</h1></center> 
+
+	<h1>18. button</h1>
+	<h2>La etiqueta <"button> en HTML se utiliza para crear botones interactivos en una página web. Estos botones pueden realizar diversas acciones, como enviar formularios, ejecutar funciones JavaScript, o redirigir al usuario a otra página.</h2>
+	<pre>
+		
+		<code>
+			<"button onclick="alert('Hola mundo')">Mostrar mensaje<"/button>
+		</code>
+
+		<code>
+			<"form action="/submit" method="post">
+  <"label for="nombre">Nombre:<"/label><"br>
+  <"input type="text" id="nombre" name="nombre"><"br><"br>
+  <"button type="submit">Enviar<"/button>
+<"/form>
+		</code>
+	</pre>
+
+	<center><h1>code funcion</h1></center> 
+
+	<h1>19. code</h1>
+	<h2>La etiqueta <"code> en HTML se utiliza para representar un fragmento de código de computadora. Su función principal es semántica, ya que indica que el contenido dentro de esta etiqueta es un código fuente, lo que puede incluir lenguajes de programación, scripts, o cualquier otro tipo de código.</h2>
+	<pre>
+		
+		<code>
+			<"p>Para imprimir "Hola Mundo" en JavaScript, puedes usar el siguiente código:</p>
+			<"code>console.log("Hola Mundo");<"/code>
+		</code>
+
+	</pre>
+
+	<center><h1>div funcion</h1></center> 
+
+	<h1>20. div</h1>
+	<h2>La etiqueta <"div> en HTML es un elemento contenedor que se utiliza para agrupar otros elementos HTML. Su función principal es estructurar y organizar el contenido de una página web, facilitando el diseño y la aplicación de estilos mediante CSS.</h2>
+	<pre>
+		
+		<code>
+			<"div class="header">
+    <"h1>Bienvenido a Mi Sitio Web<"/h1>
+<"/div>
+
+<"div class="content">
+    <"p>Este es un párrafo de contenido principal.<"/p>
+    <"img src="imagen.jpg" alt="Descripción de la imagen">
+<"/div>
+
+<"div class="footer">
+    <"p>Derechos reservados © 2024<"/p>
+<"/div>
+		</code>
+	</pre>
+
+
+
+
+
+</font>
+</div>
+</body>
+</html>
